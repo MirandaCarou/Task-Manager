@@ -8,20 +8,25 @@ import { TaskService } from '../task.service';
   styleUrls: ['./task.component.css']
 })
 export class TaskComponent implements OnInit {
-
   task!: Task;
+  tasks: Task[] = [];
 
   constructor(private taskService: TaskService) { }
 
+  getTasks(): void {
+    this.taskService.getTasks().subscribe(tasks => this.tasks = tasks);
+  }
   getTask() : void {
     this.taskService.getTask().subscribe(data => {
       this.task = data;
       console.log(data);
     });
   }
-
   ngOnInit(): void {
     this.getTask();
   }
+  
+
+
 
 }

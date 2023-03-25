@@ -1,7 +1,9 @@
 <div *ngIf="task" class="card">
-<p>Id: {{task.idTask}}</p>
-<p>Nombre: {{task.name}}</p>
-<p>Creation Date: {{task.creationDate}}</p>
+    <h1>{{task.name}}</h1>
+    <p>{{task.favorite}}</p>
+    <p>{{task.description}}</p>
+    <p>Creation Date: {{task.creationDate}}</p>
+    <p>DeadLine: {{task.deadLine}}</p>
 </div>
 <div *ngIf="!task" class="card">
     <p>No se pudo recuperar la tarea del servidor</p>

@@ -8,13 +8,23 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class TaskService {
-
+  
+  
+  private apiUrl = 'http://localhost:8080';
   PATH: string = "default";
 
   constructor(private http: HttpClient) {
    }
-
+  
+  private httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' })
+  };
   getTask(): Observable<Task> {
     return this.http.get<Task>(`${environment.API_URL}/${this.PATH}`);
   }
+
+  getTasks(): Observable<Task[]> {
+    return this.http.get<Task[]>(`${this.apiUrl}/task`, this.httpOptions);
+  }
+  
 }

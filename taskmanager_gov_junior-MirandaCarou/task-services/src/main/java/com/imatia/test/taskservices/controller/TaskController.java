@@ -37,28 +37,32 @@ public class TaskController {
     }
 
     @GetMapping(value = "/default")
-    @CrossOrigin(origins = "*")
+    @CrossOrigin(origins = "http://localhost:4200")
     public Task findDefaultTask() {
         return taskService.findTaskById(DEFAULT_UUID).orElseThrow();
     }
 
     @GetMapping
+    @CrossOrigin(origins = "*")
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
     }
 
     @GetMapping(value = "/{idTask}")
+    @CrossOrigin(origins = "http://localhost:4200")
     public Task getTaskById(@PathVariable UUID idTask) {
         return taskService.findTaskById(idTask).orElseThrow();
     }
 
     @PostMapping
+    @CrossOrigin(origins = "http://localhost:4200")
     @ResponseStatus(HttpStatus.CREATED)
     public void addTask(@RequestBody Task task) {
         taskService.addTask(task);
     }
 
     @PutMapping(value = "/{idTask}")
+    @CrossOrigin(origins = "http://localhost:4200")
     public void updateTask(@PathVariable UUID idTask, @RequestBody Task task) {
         
 		
@@ -66,6 +70,7 @@ public class TaskController {
     }
 
     @DeleteMapping(value = "/{idTask}")
+    @CrossOrigin(origins = "http://localhost:4200")
     public void deleteTask(@PathVariable UUID idTask) {
         taskService.deleteTask(idTask);
     }
