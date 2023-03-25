@@ -1,0 +1,9 @@
+com\imatia\test\taskservices\model\Task.class
+com\imatia\test\taskservices\service\TaskService.class
+com\imatia\test\taskservices\configuration\WebConfig.class
+com\imatia\test\taskservices\repository\TaskRepository.class
+com\imatia\test\taskservices\controller\exceptions\TaskNotFoundException.class
+com\imatia\test\taskservices\service\TaskServiceImpl.class
+com\imatia\test\taskservices\controller\TaskController.class
+com\imatia\test\taskservices\configuration\OpenApi30Config.class
+com\imatia\test\taskservices\TaskServicesApplication.class
