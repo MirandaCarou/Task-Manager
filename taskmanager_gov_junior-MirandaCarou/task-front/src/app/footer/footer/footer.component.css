@@ -1,0 +1,18 @@
+
+footer {
+    position:absolute;
+    bottom:0;
+    right: 0;
+    left:0;
+    height: 60px;
+    display: flex;
+    line-height: 20px;
+    background-color: #e4333c;
+    justify-content: center;
+  }
+
+  footer a, h3 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }

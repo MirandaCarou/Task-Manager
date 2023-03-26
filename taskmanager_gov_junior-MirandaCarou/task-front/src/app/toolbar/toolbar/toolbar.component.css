@@ -1,0 +1,33 @@
+
+.spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #e4333c;
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar span {
+    margin: 0 16px;
+  }
+
+  .toolbar #imatia_logo:hover {
+    opacity: 0.8;
+  }

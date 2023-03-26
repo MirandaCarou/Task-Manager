@@ -1,3 +1,4 @@
+com\imatia\test\taskservices\configuration\WebSecurityConfig.class
 com\imatia\test\taskservices\model\Task.class
 com\imatia\test\taskservices\service\TaskService.class
 com\imatia\test\taskservices\configuration\WebConfig.class

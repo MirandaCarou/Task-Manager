@@ -2,6 +2,7 @@ D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\mai
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\TaskServicesApplication.java
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\controller\TaskController.java
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\configuration\WebConfig.java
+D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\configuration\WebSecurityConfig.java
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\model\Task.java
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\repository\TaskRepository.java
 D:\GitHub\Task-Manager\taskmanager_gov_junior-MirandaCarou\task-services\src\main\java\com\imatia\test\taskservices\configuration\OpenApi30Config.java
